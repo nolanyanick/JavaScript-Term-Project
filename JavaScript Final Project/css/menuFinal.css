@@ -1,0 +1,59 @@
+body {    
+    background-color: lightblue; 
+}
+
+#gameField {
+    display: flex;
+    width: 500px;
+    height: 215px;
+    background-color: darkcyan;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+#description {
+    font-variant: small-caps;
+    font-size: 1.3em;
+    color: ivory;
+    text-shadow: 1px 1px 0px black;
+    text-align: center;
+    width: 650px;
+    padding: 25px;
+}
+
+h2 {
+    font-size: 4em;
+    text-align: center;
+    font-variant: small-caps;
+    text-shadow: 2px 2px 0px darkgoldenrod;
+    color: gold;
+    margin-bottom: 0px;     
+}
+
+article {    
+    background-color: skyblue;
+    width: 700px;
+    height: 415px;
+    left: 300px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+a button {
+    width: 150px;
+    height: 50px;
+    border: 2px solid darkcyan;
+    margin: 10px;
+    position: relative;
+    left: 115px;   
+    background-color: lightblue;
+    font-size: 2em;
+    color: darkcyan;
+}
+a button:hover {
+    color: skyblue;
+    background-color: darkslateblue;
+    border: 2px solid lightblue;
+}
