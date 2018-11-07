@@ -9,7 +9,7 @@ body {
     background-color: darkcyan;
     text-align: center;
     margin-left: auto;
-    margin-right: auto; 
+    margin-right: auto;  
 }
 
 #description {
@@ -35,8 +35,6 @@ article {
     background-color: skyblue;
     width: 700px;
     height: 415px;
-    left: 300px;
-    align-items: center;
     margin-left: auto;
     margin-right: auto; 
 }
@@ -51,6 +49,7 @@ a button {
     background-color: lightblue;
     font-size: 2em;
     color: darkcyan;
+    transition: 0.4s;
 }
 a button:hover {
     color: skyblue;

@@ -2,14 +2,14 @@ body {
     background-color: lightblue; 
 }
 
-#gameField {
-    display: flex;
+#gameField {    
     width: 500px;
     height: 500px;
     background-color: darkcyan;
     text-align: center;
     margin-left: auto;
     margin-right: auto; 
+    padding-top:25px;        
 }
 
 #description {
@@ -34,12 +34,12 @@ h2 {
 article {
     background-color: skyblue;
     width: 700px;
-    height: 725px;
+    height: 745px;
     margin-left: auto;
     margin-right: auto; 
 }
 
-a button {
+a button, #start {
     width: 110px;
     height: 30px;
     border: 2px solid darkcyan;
@@ -51,7 +51,7 @@ a button {
     color: darkcyan;
     transition: 0.4s;
 }
-a button:hover {
+a button:hover, #start:hover {
     color: skyblue;
     background-color: darkslateblue; 
 }

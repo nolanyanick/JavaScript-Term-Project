@@ -4,7 +4,7 @@ body {
 
 #gameField {
     display: flex;
-    width: 500px;
+    width: 1000px;
     height: 500px;
     background-color: darkcyan;
     text-align: center;
@@ -18,11 +18,11 @@ body {
     color: ivory;
     text-shadow: 1px 1px 1px black;
     text-align: center;
-    width: 650px;
+    width: 1150px;
     padding: 25px;
 }
 
-h2 {
+#title {
     font-size: 4em;
     text-align: center;
     font-variant: small-caps;
@@ -33,10 +33,10 @@ h2 {
 
 article {
     background-color: skyblue;
-    width: 700px;
+    width: 1200px;
     height: 725px;
     margin-left: auto;
-    margin-right: auto; 
+    margin-right: auto;
 }
 
 a button {
@@ -45,7 +45,7 @@ a button {
     border: 2px solid darkcyan;
     margin: 10px;
     position: relative;
-    left: 480px;   
+    left: 980px;   
     background-color: lightblue;
     font-size: 1em;
     color: darkcyan;
@@ -54,4 +54,27 @@ a button {
 a button:hover {
     color: skyblue;
     background-color: darkslateblue; 
+}
+
+
+#MoveMe1, #MoveMe2, #MoveMe3, #MoveMe4, #MoveMe5, #MoveMe6,  
+{
+   border: solid;
+   text-align: center;
+}
+#puzzle{
+   display: inline-flex;
+   flex-wrap:wrap;
+  }
+p{
+  width:175px;
+  height: auto;
+}
+section p img {
+  width: 175px;
+}
+
+#footer {
+    text-align: center;
+    width: 1200px;
 }
