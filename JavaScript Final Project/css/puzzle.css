@@ -3,7 +3,6 @@ body {
 }
 
 #gameField {
-    display: flex;
     width: 1000px;
     height: 500px;
     background-color: darkcyan;
@@ -39,37 +38,41 @@ article {
     margin-right: auto;
 }
 
-a button {
-    width: 110px;
+a button, #setting1, #setting2, #setting3 {
+    width: 120px;
     height: 30px;
     border: 2px solid darkcyan;
     margin: 10px;
     position: relative;
-    left: 980px;   
+    left: 538px;   
     background-color: lightblue;
     font-size: 1em;
     color: darkcyan;
     transition: 0.4s;
 }
-a button:hover {
+a button:hover, #setting1:hover, #setting2:hover, #setting3:hover {
     color: skyblue;
     background-color: darkslateblue; 
 }
-
 
 #MoveMe1, #MoveMe2, #MoveMe3, #MoveMe4, #MoveMe5, #MoveMe6,  
 {
    border: solid;
    text-align: center;
+   top: 0px;
+   left: 0px;
 }
+
 #puzzle{
    display: inline-flex;
-   flex-wrap:wrap;
-  }
+   flex-wrap: wrap;
+}
+
 p{
   width:175px;
   height: auto;
 }
+
 section p img {
   width: 175px;
 }
